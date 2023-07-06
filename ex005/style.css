@@ -1,0 +1,49 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+header{
+  padding: 10px;
+}
+
+header > h1 {
+  padding: 40px 10px;
+}
+
+body {
+  background-color: rgb(77, 0, 149);
+  color: white;
+  font: normal 12pt Arial;
+}
+
+h1{
+  text-align: center;
+  color: rgb(127, 0, 245);
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius:5px;
+}
+
+nav{
+  text-align: center;
+  padding: 0px 20px;
+}
+
+nav > ul{
+  display: inline-flex;
+  text-align: center;
+}
+
+nav > ul > li {
+  padding: 5px;
+  display: block;
+}
+
+nav > ul > li > a{
+  color: white;
+  text-decoration: none;
+}
+p{
+  padding: 4px;
+}

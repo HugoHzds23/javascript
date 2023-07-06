@@ -1,0 +1,13 @@
+body {
+    font: normal 18pt Arial;
+    background-color: blueviolet;
+    color: white;
+}
+
+input{
+    font: normal 18pt Arial;
+}
+
+div#resultado{
+    margin-top: 20px;
+}

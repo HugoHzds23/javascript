@@ -1,0 +1,21 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  height: 98vh;
+}
+
+div#area{
+  margin: 20px;
+  background-color: green;
+  color: white;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  font-size: 18pt;
+}

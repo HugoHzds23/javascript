@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+ body > h1{
+    text-align: center;
+    color: white;
+    margin: 20px;
+    font: normal 40pt Arial;
+    font-family: monospace;
+ }
+
+ body > p{
+    color: white;
+    font: normal 12pt Arial;
+    padding: 20px;
+    font-family: sans-serif;
+ }
+
+ body > p > input#txtvel{
+    font: normal 12pt Arial;
+    margin: 0px 15px;
+    
+ }
+
+body > input#buttom{
+    padding: 5px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin-left: 20px;
+
+}
+
+ div{
+    padding: 20px;
+    color: white;
+    font: normal 14pt Arial;
+    font-family: serif;
+ }
