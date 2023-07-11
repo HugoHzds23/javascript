@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background-color: rgb(11, 2, 76);
+}
+
+body > h1{
+    color : crimson;
+    text-align: center;
+    padding: 20px;
+}
+
+body > main{
+    padding: 30px;
+    background-color: antiquewhite;
+    text-align: center;
+    font: normal 18pt Arial;
+}
+
+body > main > p{
+    padding: 10px;
+}
+
+body > p{
+    color: crimson;
+    text-align: center;
+    padding: 10px;
+    font: normal 10pt Arial;
+}
+
+body > main > img{
+    border-radius: 50%;
+}

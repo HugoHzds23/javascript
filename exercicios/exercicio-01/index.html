@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 01</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Hora do dia </h1>
+    <main>
+        <p id="texto">hora do dia</p>
+            <img src="imagens/amanhecer.jpg" alt="imagem" id="imagem">
+    </main>
+    <p>Curso em Video</p>
+
+    <script>
+        var text = window.document.getElementById('texto')
+        var agora = new Date()
+        var hora = agora.getHours()
+        var hora = 22
+
+        text.innerText = `Agora são ${hora} horas`
+
+        if (hora <= 12){
+            window.document.body.style.backgroundColor = 'rgb(245, 220, 138)'
+            window.document.getElementById('imagem').src = 'imagens/amanhecer.jpg'
+        } else  if (hora > 12 && hora <= 18){
+            window.document.body.style.backgroundColor = 'rgb(106, 174, 30)'
+            window.document.getElementById('imagem').src = 'imagens/tarde.jpg'
+        } else {
+            window.document.body.style.backgroundColor = 'rgb(11, 2, 76)'
+            window.document.getElementById('imagem').src = 'imagens/noite.jpg'
+        }
+
+
+    </script>
+
+</body>
+</html>

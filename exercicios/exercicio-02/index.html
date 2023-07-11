@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 02</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+    <h1>Verificador de idade</h1>
+    </header>
+
+    <section>
+        <div>
+            <p>Ano de Nascimento:
+                <input type="number" id="txtano" name="txtano" min="0">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="radsex" id="masculino" checked>
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="radsex" id="feminino" checked>
+                <label for="feminino">Feminimo</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()" id="button">
+            </p>
+        </div>
+        <div id="resultadoformulario">
+            <p>Preencher os resultados acima para ver o resultado!</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Hugo Henrique</p>
+    </footer>
+
+    <script src="script.js" ></script>
+
+</body>
+</html>
